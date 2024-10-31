@@ -62,7 +62,6 @@ def main():
     manager = LibraryManager(library)
     while True:
         command = input("Enter command (add, remove, show, exit): ").strip().lower()
-
         match command:
             case "add":
                 title = input("Enter title book: ").strip()
